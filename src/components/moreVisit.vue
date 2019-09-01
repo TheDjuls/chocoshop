@@ -2,13 +2,13 @@
     <div>
         <hr>
         <carousel :nav="false">
-            <img src="https://placeimg.com/50/50/any?1">
+            <img src="https://placeimg.com/300/300/tech">
 
-            <img src="https://placeimg.com/50/50/any?2">
+            <img src="https://placeimg.com/300/300/tech">
 
-             <img src="https://placeimg.com/50/50/any?3">
+             <img src="https://placeimg.com/300/300/tech">
 
-             <img src="https://placeimg.com/50/50/any?4">
+             <img src="https://placeimg.com/300/300/tech">
         </carousel>
     </div>
 </template>
