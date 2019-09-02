@@ -7,6 +7,9 @@
         <br>
       <b-breadcrumb><h4>Las Mejores Tiendas:</h4></b-breadcrumb>
         <ourShops/>
+        <br>
+      <b-breadcrumb><h4>Solo los mejores Productos:</h4></b-breadcrumb>
+      <products/>
     </b-container>
       <foot/>
   </div>
@@ -18,6 +21,7 @@ import navbar from '@/components/navbar.vue'
 import foot from '@/components/foot.vue'
 import moreVisit from '@/components/moreVisit.vue'
 import ourShops from '@/components/ourShops.vue'
+import products from '@/components/products.vue'
 
 export default {
   name: 'home',
@@ -25,7 +29,8 @@ export default {
     navbar,
     moreVisit,
     ourShops,
-    foot
+    foot,
+    products
   }
 }
 </script>
